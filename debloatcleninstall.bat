@@ -190,10 +190,10 @@ winget install --id 9WZDNCRFJBH4 --accept-source-agreements --silent --accept-pa
 winget install --id 9MSMLRH6LZF3 --accept-source-agreements --silent --accept-package-agreements
 
 cls
-CHOICE /c YN /M "Do you want to run Clean Manager"
+CHOICE /c YN /M "Voulez vous demarrez le Nettoyage de Disque"
 if %ERRORLEVEL% == 1 (CALL :sub_Clean)
 
-CHOICE /c YN /M "Do you want to reboot now"
+CHOICE /c YN /M "Voulez vous redemarrer"
 if %ERRORLEVEL% == 1 (shutdown -r -f -t 00)
 
 cls & echo TERMINER. Merci d avoir utiliser cet outil. ==== Redemarrage Recommander ====& echo. 
