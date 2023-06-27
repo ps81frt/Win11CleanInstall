@@ -3,7 +3,7 @@
 ::# elevate with native shell by AveYo
 >nul reg add hkcu\software\classes\.Admin\shell\runas\command /f /ve /d "cmd /x /d /r set \"f0=%%2\"& call \"%%2\" %%3"& set _= %*
 >nul fltmc|| if "%f0%" neq "%~f0" (cd.>"%temp%\runas.Admin" & start "%~n0" /high "%temp%\runas.Admin" "%~f0" "%_:"=""%" & exit /b)
-title Debloat - A bloatware removal tool made in batch by Cramaboule
+title CleanInstallW11 - Outils de suppression des apps Windows en batch part ps81frt
 cls & echo ======================
 echo Suppressions des Application du menu Demarrer
 echo ======================& echo.
