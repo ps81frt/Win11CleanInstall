@@ -188,6 +188,8 @@ winget install --id 9WZDNCRFHVN5 --accept-source-agreements --silent --accept-pa
 winget install --id 9WZDNCRFJBH4 --accept-source-agreements --silent --accept-package-agreements
 ::Notepad
 winget install --id 9MSMLRH6LZF3 --accept-source-agreements --silent --accept-package-agreements
+::Terminal
+winget install Microsoft.WindowsTerminal
 
 cls
 CHOICE /c YN /M "Voulez vous demarrez le Nettoyage de Disque"
