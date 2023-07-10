@@ -189,6 +189,7 @@ winget install --id 9WZDNCRFJBH4 --accept-source-agreements --silent --accept-pa
 ::Notepad
 winget install --id 9MSMLRH6LZF3 --accept-source-agreements --silent --accept-package-agreements
 ::Terminal
+winget settings --enable BypassCertificatePinningForMicrosoftStore
 winget install Microsoft.WindowsTerminal
 
 cls
