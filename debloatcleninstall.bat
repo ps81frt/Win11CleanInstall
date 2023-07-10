@@ -191,6 +191,8 @@ winget install --id 9MSMLRH6LZF3 --accept-source-agreements --silent --accept-pa
 ::Terminal
 winget settings --enable BypassCertificatePinningForMicrosoftStore
 winget install Microsoft.WindowsTerminal
+winget install --id Microsoft.Powershell --source winget
+
 
 cls
 CHOICE /c YN /M "Voulez vous demarrez le Nettoyage de Disque"
