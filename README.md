@@ -1,4 +1,4 @@
 # Win11CleanInstall
 --------------------------------------------
 
-Debloat Windows 11 .
+Debloat Windows 10 & 11 .
