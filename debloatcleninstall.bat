@@ -59,13 +59,13 @@ winget uninstall Microsoft.WindowsCamera_8wekyb3d8bbwe --accept-source-agreement
 ::winget uninstall Microsoft.ScreenSketch_8wekyb3d8bbwe --accept-source-agreements --silent
 
 ::Xbox Applications
-winget uninstall Microsoft.GamingApp_8wekyb3d8bbwe --accept-source-agreements --silent
-winget uninstall Microsoft.XboxApp_8wekyb3d8bbwe --accept-source-agreements --silent
-winget uninstall Microsoft.Xbox.TCUI_8wekyb3d8bbwe --accept-source-agreements --silent
-winget uninstall Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe --accept-source-agreements --silent
-winget uninstall Microsoft.XboxIdentityProvider_8wekyb3d8bbwe --accept-source-agreements --silent
-winget uninstall Microsoft.XboxGamingOverlay_8wekyb3d8bbwe --accept-source-agreements --silent
-winget uninstall Microsoft.XboxGameOverlay_8wekyb3d8bbwe --accept-source-agreements --silent
+::winget uninstall Microsoft.GamingApp_8wekyb3d8bbwe --accept-source-agreements --silent
+::winget uninstall Microsoft.XboxApp_8wekyb3d8bbwe --accept-source-agreements --silent
+::winget uninstall Microsoft.Xbox.TCUI_8wekyb3d8bbwe --accept-source-agreements --silent
+::winget uninstall Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe --accept-source-agreements --silent
+::winget uninstall Microsoft.XboxIdentityProvider_8wekyb3d8bbwe --accept-source-agreements --silent
+::winget uninstall Microsoft.XboxGamingOverlay_8wekyb3d8bbwe --accept-source-agreements --silent
+::winget uninstall Microsoft.XboxGameOverlay_8wekyb3d8bbwe --accept-source-agreements --silent
 
 ::Groove Music
 winget uninstall Microsoft.ZuneMusic_8wekyb3d8bbwe --accept-source-agreements --silent
@@ -161,7 +161,7 @@ winget uninstall 5319275A.WhatsAppDesktop_cv1g1gvanyjgm --accept-source-agreemen
 ::Spotify Music
 winget uninstall SpotifyAB.SpotifyMusic_zpdnekdrzrea0 --accept-source-agreements --silent
 ::Microsoft Store
-winget uninstall Microsoft.WindowsStore_8wekyb3d8bbwe --accept-source-agreements --silent
+::winget uninstall Microsoft.WindowsStore_8wekyb3d8bbwe --accept-source-agreements --silent
 :: Other stuff
 winget uninstall Microsoft.HEVCVideoExtension_8wekyb3d8bbwe --accept-source-agreements --silent
 winget uninstall Microsoft.LanguageExperiencePackfr-FR_8wekyb3d8bbwe --accept-source-agreements --silent
